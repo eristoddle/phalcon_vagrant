@@ -44,4 +44,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :path => "provision/shell/install_nodejs.sh"
   config.vm.provision :shell, :path => "provision/shell/install_mongodb.sh"
   config.vm.provision :shell, :path => "provision/shell/install_redis.sh"
+  config.vm.provision :shell, :path => "provision/shell/install_composer.sh"
 end
